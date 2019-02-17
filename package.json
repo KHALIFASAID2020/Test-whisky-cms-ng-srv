@@ -1,0 +1,30 @@
+{
+  "name": "whisky-cms-ng-srv",
+  "version": "1.0.0",
+  "description": "CMS based on the MEAN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "AAF Production",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.10"
+  }
+}
