@@ -26,7 +26,7 @@ Blogpost.find()
 });
 
 const storage = multer.diskStorage({
-	destination: '/uploads',
+	destination: '',
 	filename: function (req, file, callback) {
 		crypto.pseudoRandomBytes(16000000, function(err, raw) {
 			if (err) return callback(err);
